@@ -19,6 +19,7 @@
    <br/>   
 <img width="450" alt="Screenshot 2020-08-19 at 5 33 43 PM" src="https://user-images.githubusercontent.com/46274358/90632530-2eda5180-e242-11ea-8ad1-12c199322311.png">
     <br/>
+<pre>
     setUp() method<br/>
     1.1. This is used to set up the desiredCapabilities which are to be used by a device<br/>
          desriredCapabilities are in format of key-value pairs to demonstrate the properties for a device. Refer - http://appium.io/docs/en/writing-running-appium/caps/ for more info.<br/>
@@ -30,6 +31,7 @@
 		     capabilities.setCapability("appPackage", "com.example.demoapp");<br/>
 		     capabilities.setCapability("appActivity", "com.example.demoapp.MainActivity");<br/>
     1.3. Ensure to change the value of "udid" & "platformVersion" as per the device that you are running the scripts on. <br/>
+    </pre>
     
     
          
