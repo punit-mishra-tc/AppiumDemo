@@ -5,8 +5,8 @@
 * This is a sample form to have a basic understanding how automation scripts work.
   Valid credentials are - 
   * Username - admin
-  * Password - 1234
-  For every valid/invalid login, toast message is displayed
+  * Password - 1234 <br/>
+  For every valid/invalid login, toast message is displayed <br/>
   
 * QA's tasks - 
   * Attempt for verification using **invalid** credentials
