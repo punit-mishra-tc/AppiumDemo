@@ -16,12 +16,8 @@
 
 1. Open AutomationDemo.java file.<br/>
    This is the main method. Program execution starts from this point<br/> 
-   <br/>
-   public static void main(String[] args) throws Exception {<br/>
-		AutomationDemo obj = new AutomationDemo();<br/>
-		obj.setUp();<br/>
-		obj.fillUpForm();<br/>
-	}<br/>
+   <br/>   
+<img width="450" alt="Screenshot 2020-08-19 at 5 33 43 PM" src="https://user-images.githubusercontent.com/46274358/90632530-2eda5180-e242-11ea-8ad1-12c199322311.png">
     <br/>
     setUp() method<br/>
     1.1. This is used to set up the desiredCapabilities which are to be used by a device<br/>
