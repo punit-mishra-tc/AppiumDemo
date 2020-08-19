@@ -14,26 +14,26 @@
   
 * Script explaination - 
 
-1. Open AutomationDemo.java file.
-   This is the main method. Program execution starts from this point 
-   
-   public static void main(String[] args) throws Exception {
-		AutomationDemo obj = new AutomationDemo();
-		obj.setUp();
-		obj.fillUpForm();
-	}
-    
-    setUp() method
-    1.1. This is used to set up the desiredCapabilities which are to be used by a device
-         desriredCapabilities are in format of key-value pairs to demonstrate the properties for a device. Refer - http://appium.io/docs/en/writing-running-appium/caps/ for more info.
-    1.2. Here we are setting up these capabilities - 
-         capabilities.setCapability("platformName", "Android");
-		     capabilities.setCapability("platformVersion", "10.0");
-		     capabilities.setCapability("deviceName", "Oneplus5");
-		     capabilities.setCapability("udid", "192.168.0.179:5555");
-		     capabilities.setCapability("appPackage", "com.example.demoapp");
-		     capabilities.setCapability("appActivity", "com.example.demoapp.MainActivity");
-    1.3. Ensure to change the value of "udid" & "platformVersion" as per the device that you are running the scripts on. 
+1. Open AutomationDemo.java file.<br/>
+   This is the main method. Program execution starts from this point<br/> 
+   <br/>
+   public static void main(String[] args) throws Exception {<br/>
+		AutomationDemo obj = new AutomationDemo();<br/>
+		obj.setUp();<br/>
+		obj.fillUpForm();<br/>
+	}<br/>
+    <br/>
+    setUp() method<br/>
+    1.1. This is used to set up the desiredCapabilities which are to be used by a device<br/>
+         desriredCapabilities are in format of key-value pairs to demonstrate the properties for a device. Refer - http://appium.io/docs/en/writing-running-appium/caps/ for more info.<br/>
+    1.2. Here we are setting up these capabilities - <br/>
+         capabilities.setCapability("platformName", "Android");<br/>
+		     capabilities.setCapability("platformVersion", "10.0");<br/>
+		     capabilities.setCapability("deviceName", "Oneplus5");<br/>
+		     capabilities.setCapability("udid", "192.168.0.179:5555");<br/>
+		     capabilities.setCapability("appPackage", "com.example.demoapp");<br/>
+		     capabilities.setCapability("appActivity", "com.example.demoapp.MainActivity");<br/>
+    1.3. Ensure to change the value of "udid" & "platformVersion" as per the device that you are running the scripts on. <br/>
     
     
          
