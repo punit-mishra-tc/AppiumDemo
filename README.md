@@ -1,6 +1,8 @@
 # AppiumDemo
 
-<img width="1011" alt="login" src="https://user-images.githubusercontent.com/46274358/90629843-a8bc0c00-e23d-11ea-941c-0775ed6bd389.png">
+<img width="727" alt="Sign Up" src="https://user-images.githubusercontent.com/46274358/90983699-a9caa180-e58d-11ea-8b48-8cec71e19ea2.png">
+
+<img width="727" alt="Sign In" src="https://user-images.githubusercontent.com/46274358/90983706-b0f1af80-e58d-11ea-89f2-ebae8cc458e2.png">
 
 * This is a sample form to have a basic understanding how automation scripts work.
   Valid credentials are - 
