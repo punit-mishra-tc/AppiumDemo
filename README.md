@@ -22,7 +22,7 @@
 1. Open AutomationDemo.java file.<br/>
    This is the main method. Program execution starts from this point<br/> 
    <br/>   
-<img width="450" alt="Screenshot 2020-08-19 at 5 33 43 PM" src="https://user-images.githubusercontent.com/46274358/90632530-2eda5180-e242-11ea-8ad1-12c199322311.png">
+<img width="325" alt="Screenshot 2020-08-23 at 10 31 02 PM" src="https://user-images.githubusercontent.com/46274358/90984069-67569400-e590-11ea-81b4-8975e4eca38b.png">
     <br/>
 <pre>
     setUp() method<br/>
