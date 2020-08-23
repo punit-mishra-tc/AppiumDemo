@@ -1,9 +1,12 @@
 # AppiumDemo
-
+<pre>
 <img width="727" alt="Sign Up" src="https://user-images.githubusercontent.com/46274358/90983699-a9caa180-e58d-11ea-8b48-8cec71e19ea2.png">
-
+</pre>
+* Create Account
+<pre>
 <img width="727" alt="Sign In" src="https://user-images.githubusercontent.com/46274358/90983826-8e13cb00-e58e-11ea-9fec-e0a0044c8d14.png">
-
+</pre>
+* Sign In
 * This is a sample form to have a basic understanding how automation scripts work.
   Valid credentials are - 
   * Username - admin
