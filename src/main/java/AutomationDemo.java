@@ -14,8 +14,9 @@ public class AutomationDemo {
 		
 		AutomationDemo obj = new AutomationDemo();
 		obj.setUp();
+		obj.signUp();
 		obj.fillUpForm();
-		
+		obj.verifyUserProfile();
 	}
 	
 	public void setUp() throws Exception{
@@ -32,20 +33,47 @@ public class AutomationDemo {
 		System.out.println("Done");
 	}
 	
+	public void signUp() {
+		AndroidElement signUpBtn = (AndroidElement)driver.findElement(By.id("com.example.demoapp:id/signUp"));
+		signUpBtn.click();
+
+		AndroidElement firstName = (AndroidElement)driver.findElement(By.id("com.example.demoapp:id/firstName"));
+		AndroidElement lastName = (AndroidElement)driver.findElement(By.id("com.example.demoapp:id/lastName"));
+		AndroidElement userName = (AndroidElement)driver.findElement(By.id("com.example.demoapp:id/username"));
+		AndroidElement password = (AndroidElement)driver.findElement(By.id("com.example.demoapp:id/password"));
+
+		firstName.sendKeys("Punit");
+		lastName.sendKeys("Mishra");
+		userName.sendKeys("punit");
+		password.sendKeys("1234");
+		signUpBtn.click();
+
+	}
+
 	public void fillUpForm() {
 		AndroidElement userName = (AndroidElement) driver.findElement(By.id("com.example.demoapp:id/username"));
 		AndroidElement password = (AndroidElement) driver.findElement(By.id("com.example.demoapp:id/password"));
 		AndroidElement rememberMe = (AndroidElement) driver.findElement(By.id("com.example.demoapp:id/rememberMe"));
 		AndroidElement login = (AndroidElement) driver.findElement(By.id("com.example.demoapp:id/login"));
-		//AndroidElement success = (AndroidElement) driver.findElement(By.id("com.example.demoapp:id/textView"));
 		
 		userName.sendKeys("admin");
+		password.sendKeys("1234");
+		login.click();
+
+		userName.sendKeys("punit");
 		password.sendKeys("1234");
 		rememberMe.click();
 		login.click();
 		
-		//System.out.println(success.getText().toString());
-				
 	}
 
+	public void verifyUserProfile() {
+		AndroidElement header = (AndroidElement) driver.findElement(By.id("com.example.demoapp:id/header"));
+		AndroidElement firstName = (AndroidElement) driver.findElement(By.id("com.example.demoapp:id/firstName"));
+		AndroidElement lastName = (AndroidElement) driver.findElement(By.id("com.example.demoapp:id/lastName"));
+
+		System.out.println(header.getText());
+		System.out.println(firstName.getText());
+		System.out.println(lastName.getText());
+	}
 }
