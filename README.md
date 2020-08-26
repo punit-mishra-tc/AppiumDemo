@@ -39,20 +39,20 @@
 * Check if "Log in" button is disabled if user enters incorrect credentials 5 times
 * Check if user is able to login to the app using the correct credentials and verify the First Name and Last Name in the app
 </details>
+
 <details>
 	<summary> <ins> First Automation Script </ins> <summary>
 * QA's tasks - 
   * Attempt for verification using **invalid** credentials
-  * Attempt for verification using **valid** credentials
-		
+  * Attempt for verification using **valid** credentials		
 * Script explaination - 
-
 1. Open AutomationDemo.java file.<br/>
    This is the main method. Program execution starts from this point<br/> 
    <br/>   
 <img width="325" alt="Screenshot 2020-08-23 at 10 31 02 PM" src="https://user-images.githubusercontent.com/46274358/90984069-67569400-e590-11ea-81b4-8975e4eca38b.png">
     <br/>
-<pre>
+		
+``` java
     setUp() method<br/>
     1.1. This is used to set up the desiredCapabilities which are to be used by a device<br/>
          desriredCapabilities are in format of key-value pairs to demonstrate the properties for a device. Refer - http://appium.io/docs/en/writing-running-appium/caps/ for more info.<br/>
@@ -64,8 +64,7 @@
 		     capabilities.setCapability("appPackage", "com.example.demoapp");<br/>
 		     capabilities.setCapability("appActivity", "com.example.demoapp.MainActivity");<br/>
     1.3. Ensure to change the value of "udid" & "platformVersion" as per the device that you are running the scripts on. <br/>
-    </pre>
-    
+```  
 </details>    
          
          
