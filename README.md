@@ -1,8 +1,4 @@
 # Getting Started with Appium Automation Scripts
-<img width="727" alt="Sign Up" src="https://user-images.githubusercontent.com/46274358/90983699-a9caa180-e58d-11ea-8b48-8cec71e19ea2.png">
-* Create Account
-<img width="727" alt="Sign In" src="https://user-images.githubusercontent.com/46274358/90983826-8e13cb00-e58e-11ea-9fec-e0a0044c8d14.png">
-* Sign In
 <details>
   <summary> <ins> Installation and set up </ins></summary>
   
@@ -21,7 +17,16 @@
   * [Eclipse](https://www.eclipse.org/downloads/) or [IntelliJ](https://www.jetbrains.com/idea/download/#section=mac) </br>
   </details>
 
+<details>
+	<summary> <ins> Sample Form app </ins> </summary>
 
+* Install app-debug.apk from the file
+* Launch the app to get to know about the app
+</details>
+<img width="727" alt="Sign Up" src="https://user-images.githubusercontent.com/46274358/90983699-a9caa180-e58d-11ea-8b48-8cec71e19ea2.png">
+* Create Account
+<img width="727" alt="Sign In" src="https://user-images.githubusercontent.com/46274358/90983826-8e13cb00-e58e-11ea-9fec-e0a0044c8d14.png">
+* Sign In
 * This is a sample form to have a basic understanding how automation scripts work.
   Valid credentials are - 
   * Username - admin
