@@ -54,9 +54,7 @@
 	<br/>
 </div>
 
-* QA's tasks - 
-  * Attempt for verification using **invalid** credentials
-  * Attempt for verification using **valid** credentials
+
 * setUp() method - 
   * This is used to set up the desiredCapabilities which are to be used by a device
   * desiredCapabilities are in format of key-value pairs to demonstrate the properties for a test device. [Refer here](http://appium.io/docs/en/writing-running-appium/caps/) for more info.
