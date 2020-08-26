@@ -68,7 +68,29 @@ capabilities.setCapability("udid", "192.168.0.179:5555");
 capabilities.setCapability("appPackage", "com.example.demoapp");
 capabilities.setCapability("appActivity", "com.example.demoapp.MainActivity");
 ```
-	
+
+* signUp() method - 
+  * This method navigates the user to Sign Up page and allows them to create a new user account here.
+  * All the UI elements are initialised here like -
+  
+```java
+AndroidElement firstName = (AndroidElement)driver.findElement(By.id("com.example.demoapp:id/firstName"));
+AndroidElement lastName = (AndroidElement)driver.findElement(By.id("com.example.demoapp:id/lastName"));
+```
+
+  * Elements are initialised using the id locator. For more info about locators [refer here](https://kobiton.com/book/chapter-4-appium-locator-finding-strategies/)
+  * Actions are performed on the UI elements in order - 
+
+```java
+signUpBtn.click(); // From Home page, click on Sign Up button
+firstName.sendKeys("Punit"); // In Sign Up page, enter "Punit" in First Name field
+lastName.sendKeys("Mishra"); // Enter "Mishra" in Last Name field
+userName.sendKeys("punit"); // Enter "punit" in userName field
+password.sendKeys("1234"); // Enter "1234" in password field
+signUpBtn.click(); // Click on Sign Up button to create the user account
+```
+
+
 </details>    
          
          
