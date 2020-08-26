@@ -88,6 +88,33 @@ userName.sendKeys("punit"); // Enter "punit" in userName field
 password.sendKeys("1234"); // Enter "1234" in password field
 signUpBtn.click(); // Click on Sign Up button to create the user account
 ```
+
+* fillUpForm() method - 
+  * This method fills up the sign in form with valid and invalid credentials to check the behavior.
+  * Actions performed in choronolical order for Invalid userName are -
+```java
+userName.sendKeys("admin"); // Enter "admin" as username
+password.sendKeys("1234"); // Enter "1234" as password
+login.click(); // Click on login button
+```
+* 
+  * Actions perfomed for valid user are -  
+```java
+userName.sendKeys("punit"); // Enter "1234" as username
+password.sendKeys("1234"); // Enter "1234" as password
+login.click(); // Click on login button
+```
+
+* verifyUserProfile() method - 
+  * This method verifies the First Name and Last Name which has been used to login to the account.
+  * There are no action perfomed on the elements, we are just caputuring the data from the First Name and Last Name field and printing those values to the console.
+  
+```java
+System.out.println(header.getText());
+System.out.println(firstName.getText());
+System.out.println(lastName.getText());
+```
+
 </details>    
          
          
