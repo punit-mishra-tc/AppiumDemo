@@ -41,7 +41,7 @@
 </details>
 
 <details>
-	<summary> <ins> First Automation Script </ins> <summary>
+	<summary> <ins> First Automation Script </ins> </summary>
 		
 * QA's tasks - 
   * Attempt for verification using **invalid** credentials
@@ -59,11 +59,11 @@
 
 ```java
 capabilities.setCapability("platformName", "Android");
-		     capabilities.setCapability("platformVersion", "10.0");
-		     capabilities.setCapability("deviceName", "Oneplus5");
-		     capabilities.setCapability("udid", "192.168.0.179:5555");
-		     capabilities.setCapability("appPackage", "com.example.demoapp");
-		     capabilities.setCapability("appActivity", "com.example.demoapp.MainActivity");
+capabilities.setCapability("platformVersion", "10.0");
+capabilities.setCapability("deviceName", "Oneplus5");
+capabilities.setCapability("udid", "192.168.0.179:5555");
+capabilities.setCapability("appPackage", "com.example.demoapp");
+capabilities.setCapability("appActivity", "com.example.demoapp.MainActivity");
 ```
     
          
