@@ -119,16 +119,15 @@ System.out.println(lastName.getText());
 
 <details>
 	<summary> <ins> Framework Design </ins> </summary>
-	
-<div align="center">
-	
+		
 * The framework is designed on **PAGE OBJECT MODEL** design pattern where you have seperate folders for pages and tests
 * The pages folder 
-  * It consists of seperate pages (like HomePage.java & SignUpPage.java) 
+  * It consists of seperate pages (like ```HomePage.java``` & ```SignUpPage.java```) 
   * Each page's elements (like "Sign Up" & "Sign In" buttons) are defined in their respective classes and the actions to be perfomed on those elements (like click() & type() methods) are also defined in the same class
 * The test classes
-  * It consists of test scripts for each seperate pages (like HomePageTest.java & SignUpPageTest.java)
+  * It consists of test scripts for each seperate pages (like ```HomePageTest.java``` & ```SignUpPageTest.java```)
   * Each test class has the actions to be perfomed in chronological order
+<div align="center">
 <img width="616" alt="Screenshot 2020-08-26 at 4 17 13 PM" src="https://user-images.githubusercontent.com/46274358/91294739-9e5abe80-e7b7-11ea-9cbc-5352a8b2af17.png">
 </div>
 </details>
