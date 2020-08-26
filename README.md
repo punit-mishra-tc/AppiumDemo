@@ -20,7 +20,7 @@
 <details>
 	<summary> <ins> Sample Form app </ins> </summary>
 
-* Install app-debug.apk from the file
+* Install app-debug.apk from the [here](https://github.com/punitm03/AppiumDemo/blob/master/app-debug.apk)
 * Launch the app to get to know about the app
 ### Test Cases 
 * Check if user is able to sign up by providing the details
