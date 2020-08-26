@@ -44,6 +44,7 @@
 	<summary> <ins> First Automation Script </ins> </summary>
 	
 * QA's tasks - 
+  * Create a new user account
   * Attempt for verification using **invalid** credentials
   * Attempt for verification using **valid** credentials		
 * Script explaination - 
