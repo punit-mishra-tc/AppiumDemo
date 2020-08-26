@@ -22,11 +22,11 @@
 	
 * This is a sample app created with basic UI Elements in it.
 * Install app-debug.apk from the [here](https://github.com/punitm03/AppiumDemo/blob/master/app-debug.apk)
-
-Screenshots </br>
+</br>
+### Screenshots </br>
 <p align = "center">Create Account</p>
-<img width="727" align = "center" alt="Sign Up" src="https://user-images.githubusercontent.com/46274358/90983699-a9caa180-e58d-11ea-8b48-8cec71e19ea2.png">
-<p align = "center">Sign In</p></br>
+<img width="727" align = "center" alt="Sign Up" src="https://user-images.githubusercontent.com/46274358/90983699-a9caa180-e58d-11ea-8b48-8cec71e19ea2.png"></br>
+<p align = "center">Sign In</p>
 <img width="727" align = "center" alt="Sign In" src="https://user-images.githubusercontent.com/46274358/90983826-8e13cb00-e58e-11ea-9fec-e0a0044c8d14.png">
 
 ### Test Cases 
