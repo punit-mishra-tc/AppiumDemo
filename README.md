@@ -54,6 +54,8 @@
          desiredCapabilities are in format of key-value pairs to demonstrate the properties for a test device. Refer - http://appium.io/docs/en/writing-running-appium/caps/ for more info.
     * Here we are setting up these capabilities - 
 		
+</details>
+
     ``` java
          capabilities.setCapability("platformName", "Android");
 		     capabilities.setCapability("platformVersion", "10.0");
@@ -62,6 +64,6 @@
 		     capabilities.setCapability("appPackage", "com.example.demoapp");
 		     capabilities.setCapability("appActivity", "com.example.demoapp.MainActivity");
 	```
-</details>    
+    
          
          
