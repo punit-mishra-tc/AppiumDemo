@@ -1,4 +1,4 @@
-# Getting Started with Appium Automation Scripts
+# Getting Started with Appium
 <details>
   <summary> <ins> Installation and set up </ins></summary>
   
