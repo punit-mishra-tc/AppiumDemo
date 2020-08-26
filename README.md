@@ -1,12 +1,27 @@
-# AppiumDemo
-<pre>
+# Getting Started with Appium Automation Scripts
 <img width="727" alt="Sign Up" src="https://user-images.githubusercontent.com/46274358/90983699-a9caa180-e58d-11ea-8b48-8cec71e19ea2.png">
-</pre>
 * Create Account
-<pre>
 <img width="727" alt="Sign In" src="https://user-images.githubusercontent.com/46274358/90983826-8e13cb00-e58e-11ea-9fec-e0a0044c8d14.png">
-</pre>
 * Sign In
+<details>
+  <summary> <ins> Installation and set up </ins></summary>
+  
+* [Java Installed](https://www.java.com/en/download/help/mac_install.xml) </br>  
+* [Set up java_home, android_home in your .profile or .zsh file (default is .profile)](https://youtu.be/y6szNJ4rMZ0) </br>
+  * Adb commands should work now, check using “adb devices” in terminal </br>
+* Node installed </br>
+  * Check if node is present using “npm -v” on terminal in mac </br>
+  * [If node is not present, Install node](https://nodejs.org/en/download/) </br>
+* [Appium installed (Preferably Appium Desktop)](http://appium.io/) </br>
+  * Launch Appium </br>
+  * Run Appium Server in default settings and check if the server is running or not. </br>
+* [Appium-doctor (optional)](https://www.npmjs.com/package/appium-doctor) </br>
+  * Run “appium-doctor --android” in your terminal to check if all dependencies related to Android are installed </br>
+* IDE present </br>
+  * [Eclipse](https://www.eclipse.org/downloads/) or [IntelliJ](https://www.jetbrains.com/idea/download/#section=mac) </br>
+  </details>
+
+
 * This is a sample form to have a basic understanding how automation scripts work.
   Valid credentials are - 
   * Username - admin
