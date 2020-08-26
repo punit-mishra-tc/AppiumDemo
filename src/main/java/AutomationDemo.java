@@ -20,7 +20,7 @@ public class AutomationDemo {
 	}
 	
 	public void setUp() throws Exception{
-		System.out.println("Setting up desiredCapabilities");
+		// This method sets up the DesiredCapabilities that are required to run on a device/emulator
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability("platformName", "Android");
 		capabilities.setCapability("platformVersion", "10.0");
@@ -30,10 +30,15 @@ public class AutomationDemo {
 		capabilities.setCapability("appActivity", "com.example.demoapp.MainActivity");
 		URL url = new URL("http://127.0.0.1:4723/wd/hub");
 		driver = new AndroidDriver(url, capabilities);
-		System.out.println("Done");
 	}
 	
 	public void signUp() {
+		/*
+		 * This method does the following in sequential order
+		 * 1. From home page, click on Sign Up button
+		 * 2. Enter First Name, Last Name, UserName & Password
+		 * 2. Enter 
+		 */
 		AndroidElement signUpBtn = (AndroidElement)driver.findElement(By.id("com.example.demoapp:id/signUp"));
 		signUpBtn.click();
 
