@@ -51,7 +51,6 @@
    This is the main method. Program execution starts from this point
 <div align="center">   
 <img width="325" align="left" alt="Screenshot 2020-08-23 at 10 31 02 PM" src="https://user-images.githubusercontent.com/46274358/90984069-67569400-e590-11ea-81b4-8975e4eca38b.png">
-</div>	
 * setUp() method
    	* This is used to set up the desiredCapabilities which are to be used by a device
          desiredCapabilities are in format of key-value pairs to demonstrate the properties for a test device. Refer - http://appium.io/docs/en/writing-running-appium/caps/ for more info.
@@ -65,6 +64,8 @@ capabilities.setCapability("udid", "192.168.0.179:5555");
 capabilities.setCapability("appPackage", "com.example.demoapp");
 capabilities.setCapability("appActivity", "com.example.demoapp.MainActivity");
 ```
+
+</div>	
 </details>    
          
          
