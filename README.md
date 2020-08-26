@@ -38,19 +38,13 @@
 * Check if error is shown if incorrect user credentials are passed
 * Check if "Log in" button is disabled if user enters incorrect credentials 5 times
 * Check if user is able to login to the app using the correct credentials and verify the First Name and Last Name in the app
-
 </details>
-
-* This is a sample form to have a basic understanding how automation scripts work.
-  Valid credentials are - 
-  * Username - admin
-  * Password - 1234 <br/>
-  For every valid/invalid login, toast message is displayed <br/>
-  
+<details>
+	<summary> <ins> First Automation Script </ins> <summary>
 * QA's tasks - 
   * Attempt for verification using **invalid** credentials
   * Attempt for verification using **valid** credentials
-  
+		
 * Script explaination - 
 
 1. Open AutomationDemo.java file.<br/>
