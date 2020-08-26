@@ -23,11 +23,11 @@
 * This is a sample app created with basic UI Elements in it.
 * Install app-debug.apk from the [here](https://github.com/punitm03/AppiumDemo/blob/master/app-debug.apk)
 
-* Screenshots 
-<p align = "center">Create Account </p>
-<img width="727" alt="Sign Up" src="https://user-images.githubusercontent.com/46274358/90983699-a9caa180-e58d-11ea-8b48-8cec71e19ea2.png" align = "center">
-<p align = "center">Sign In</p>
-<img width="727" alt="Sign In" src="https://user-images.githubusercontent.com/46274358/90983826-8e13cb00-e58e-11ea-9fec-e0a0044c8d14.png" align = "center">
+Screenshots </br>
+<p align = "center">Create Account</p>
+<img width="727" align = "center" alt="Sign Up" src="https://user-images.githubusercontent.com/46274358/90983699-a9caa180-e58d-11ea-8b48-8cec71e19ea2.png">
+<p align = "center">Sign In</p></br>
+<img width="727" align = "center" alt="Sign In" src="https://user-images.githubusercontent.com/46274358/90983826-8e13cb00-e58e-11ea-9fec-e0a0044c8d14.png">
 
 ### Test Cases 
 * Check if user is able to sign up by providing the details
@@ -36,6 +36,7 @@
 * Check if user is able to login to the app using the correct credentials and verify the First Name and Last Name in the app
 
 </details>
+
 * This is a sample form to have a basic understanding how automation scripts work.
   Valid credentials are - 
   * Username - admin
