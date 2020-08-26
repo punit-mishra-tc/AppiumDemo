@@ -26,11 +26,13 @@
 <div align="center">
 <p><ins>Create Account</ins></p>
 <img width="727" align = "center" alt="Sign Up" src="https://user-images.githubusercontent.com/46274358/90983699-a9caa180-e58d-11ea-8b48-8cec71e19ea2.png">
-</div>
+</div> 
 <div align="center">
+<br/><br/>
 <p> <ins>Sign In </ins></p>
 <img width="727" align = "center" alt="Sign In" src="https://user-images.githubusercontent.com/46274358/90983826-8e13cb00-e58e-11ea-9fec-e0a0044c8d14.png">
 </div>
+
 ### Test Cases 
 * Check if user is able to sign up by providing the details
 * Check if error is shown if incorrect user credentials are passed
