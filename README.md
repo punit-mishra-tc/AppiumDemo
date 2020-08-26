@@ -66,6 +66,6 @@
     1.3. Ensure to change the value of "udid" & "platformVersion" as per the device that you are running the scripts on. <br/>
     </pre>
     
-    
+</details>    
          
          
