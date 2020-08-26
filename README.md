@@ -76,8 +76,8 @@ capabilities.setCapability("appActivity", "com.example.demoapp.MainActivity");
 AndroidElement firstName = (AndroidElement)driver.findElement(By.id("com.example.demoapp:id/firstName"));
 AndroidElement lastName = (AndroidElement)driver.findElement(By.id("com.example.demoapp:id/lastName"));
 ```
-  * Elements are initialised using the id locator. For more info about locators [refer here](https://kobiton.com/book/chapter-4-appium-locator-finding-strategies/)
-  * Actions are performed on the UI elements in order - 
+  * In this example, elements are initialised using the id locator. For more info about locators [refer here](https://kobiton.com/book/chapter-4-appium-locator-finding-strategies/)
+  * Actions are performed on the UI elements in chronological order - 
 
 ```java
 signUpBtn.click(); // From Home page, click on Sign Up button
@@ -87,8 +87,6 @@ userName.sendKeys("punit"); // Enter "punit" in userName field
 password.sendKeys("1234"); // Enter "1234" in password field
 signUpBtn.click(); // Click on Sign Up button to create the user account
 ```
-
-
 </details>    
          
          
