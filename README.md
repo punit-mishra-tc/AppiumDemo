@@ -49,11 +49,13 @@
 * Script explaination - 
 	* Open [AutomationDemo.java](https://github.com/punitm03/AppiumDemo/blob/master/src/main/java/AutomationDemo.java) file.
    This is the main method. Program execution starts from this point
-* <img width="325" align="left" alt="Screenshot 2020-08-23 at 10 31 02 PM" src="https://user-images.githubusercontent.com/46274358/90984069-67569400-e590-11ea-81b4-8975e4eca38b.png">
-	* setUp() method
-   	 * This is used to set up the desiredCapabilities which are to be used by a device
+<div align="center">   
+<img width="325" align="left" alt="Screenshot 2020-08-23 at 10 31 02 PM" src="https://user-images.githubusercontent.com/46274358/90984069-67569400-e590-11ea-81b4-8975e4eca38b.png">
+</div>	
+* setUp() method
+   	* This is used to set up the desiredCapabilities which are to be used by a device
          desiredCapabilities are in format of key-value pairs to demonstrate the properties for a test device. Refer - http://appium.io/docs/en/writing-running-appium/caps/ for more info.
-   	 * Here we are setting up these capabilities - 
+   	* Here we are setting up these capabilities - 
 	
 ```java
 capabilities.setCapability("platformName", "Android");
