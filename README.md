@@ -42,7 +42,7 @@
 
 <details>
 	<summary> <ins> First Automation Script </ins> </summary>
-		
+<div align="center">		
 * QA's tasks - 
   * Attempt for verification using **invalid** credentials
   * Attempt for verification using **valid** credentials		
@@ -54,7 +54,8 @@
     * This is used to set up the desiredCapabilities which are to be used by a device
          desiredCapabilities are in format of key-value pairs to demonstrate the properties for a test device. Refer - http://appium.io/docs/en/writing-running-appium/caps/ for more info.
     * Here we are setting up these capabilities - 
-		
+</div>
+	
 ```java
 capabilities.setCapability("platformName", "Android");
 capabilities.setCapability("platformVersion", "10.0");
