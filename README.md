@@ -19,19 +19,23 @@
 
 <details>
 	<summary> <ins> Sample Form app </ins> </summary>
-
+	
+* This is a sample app created with basic UI Elements in it.
 * Install app-debug.apk from the [here](https://github.com/punitm03/AppiumDemo/blob/master/app-debug.apk)
-* Launch the app to get to know about the app
+
+* Screenshots 
+<p align = "center">Create Account </p>
+<img width="727" alt="Sign Up" src="https://user-images.githubusercontent.com/46274358/90983699-a9caa180-e58d-11ea-8b48-8cec71e19ea2.png" align = "center">
+<p align = "center">Sign In</p>
+<img width="727" alt="Sign In" src="https://user-images.githubusercontent.com/46274358/90983826-8e13cb00-e58e-11ea-9fec-e0a0044c8d14.png" align = "center">
+
 ### Test Cases 
 * Check if user is able to sign up by providing the details
 * Check if error is shown if incorrect user credentials are passed
 * Check if "Log in" button is disabled if user enters incorrect credentials 5 times
 * Check if user is able to login to the app using the correct credentials and verify the First Name and Last Name in the app
+
 </details>
-<img width="727" alt="Sign Up" src="https://user-images.githubusercontent.com/46274358/90983699-a9caa180-e58d-11ea-8b48-8cec71e19ea2.png">
-* Create Account
-<img width="727" alt="Sign In" src="https://user-images.githubusercontent.com/46274358/90983826-8e13cb00-e58e-11ea-9fec-e0a0044c8d14.png">
-* Sign In
 * This is a sample form to have a basic understanding how automation scripts work.
   Valid credentials are - 
   * Username - admin
