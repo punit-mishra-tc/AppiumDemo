@@ -76,6 +76,7 @@ capabilities.setCapability("appActivity", "com.example.demoapp.MainActivity");
 AndroidElement firstName = (AndroidElement)driver.findElement(By.id("com.example.demoapp:id/firstName"));
 AndroidElement lastName = (AndroidElement)driver.findElement(By.id("com.example.demoapp:id/lastName"));
 ```
+* 
   * In this example, elements are initialised using the id locator. For more info about locators [refer here](https://kobiton.com/book/chapter-4-appium-locator-finding-strategies/)
   * Actions are performed on the UI elements in chronological order - 
 
