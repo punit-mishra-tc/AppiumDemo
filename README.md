@@ -115,6 +115,13 @@ System.out.println(firstName.getText());
 System.out.println(lastName.getText());
 ```
 
-</details>    
+</details>
+
+<details>
+	<summary> <ins> Framework Design </ins> </summary>
+<div align="center">
+     <img width="616" alt="Screenshot 2020-08-26 at 4 15 21 PM" src="https://user-images.githubusercontent.com/46274358/91294612-6fdce380-e7b7-11ea-9da2-04b66d35ca89.png">
+</div>
+</details>
          
          
