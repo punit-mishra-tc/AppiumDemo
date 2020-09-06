@@ -127,7 +127,7 @@
   * Attempt for verification using **invalid** credentials
   * Attempt for verification using **valid** credentials		
 * Script explaination - 
-	* Open [AutomationDemo.java](https://github.com/punitm03/AppiumDemo/blob/master/src/main/java/AutomationDemo.java) file.
+	* Open [AutomationDemo.java](https://github.com/punitm03/AppiumDemo/blob/master/src/main/java/FirstScript/AutomationDemo.java) file.
    This is the main method. Program execution starts from this point
 <div align="center">   
 <img width="414" alt="Screenshot 2020-08-29 at 12 42 17 AM" src="https://user-images.githubusercontent.com/46274358/91606845-84c09f00-e990-11ea-8bae-6814d8829582.png">
