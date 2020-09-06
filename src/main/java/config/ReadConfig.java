@@ -13,22 +13,22 @@ public class ReadConfig {
     File src;
 
      public ReadConfig(){
-         src = new File("/Users/punitmishra/eclipse-workspace/DemoApp/src/main/resources/config.properties");
+         src = new File("./Resources/config.properties");
         try{
             fis = new FileInputStream(src);
             prop = new Properties();
             prop.load(fis);
        }
         catch (FileNotFoundException e) {
-//            System.out.println("File Not Found");
+            System.out.println("File Not Found");
             e.printStackTrace();
         }
         catch (IOException e){
-//            System.out.println(" ReadConfig error "+e.getMessage());
+            System.out.println(" ReadConfig error "+e.getMessage());
             e.printStackTrace();
         }
         catch(Exception e) {
-//        	System.out.println("Generic readConfig error");
+        	System.out.println("Generic readConfig error");
         	e.printStackTrace();
         }
      }
