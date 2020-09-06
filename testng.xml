@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Name" verbose="1">
+    <test name="Test Name">
+        <classes>
+            <class name="SignInTest"/>
+<!--           <methods>-->
+<!--                <include name="loginWithInvalidCredentials" />-->
+<!--            </methods>-->
+<!--            </class>-->
+
+            <class name="SignUpTest"/>
+<!--                <methods>-->
+<!--                    <include name="createInvalidAccount"/>-->
+<!--                    <include name="createValidAccount"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+
+        </classes>
+    </test>
+</suite>
