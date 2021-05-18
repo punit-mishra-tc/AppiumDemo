@@ -100,7 +100,7 @@
 	<summary> <ins> Sample Form app </ins> </summary>
 	
 * This is a sample app created with basic UI Elements in it.
-* Install app-debug.apk from the [here](https://github.com/punitm03/AppiumDemo/blob/master/app-debug.apk)
+* Install app-release.apk from the [here](https://github.com/punitm03/AppiumDemo/blob/master/app-release.apk)
 * Screenshots from the app can be found here ⬇
 <div align="center">
 <p><ins>Create Account</ins></p>
